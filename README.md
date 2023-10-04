@@ -4,7 +4,7 @@
 
 # Run in development
 
-1. Clone the repository
+1. Clone the repository.
 
 2. Run inside the project folder:
 
@@ -24,7 +24,15 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Rebuild the database with the seed being in development:
+5. Clone the `.env.template` file and rename it to `.env` and then complete these environment variables.
+
+6. Run the application in development.
+
+```
+npm run start:dev
+```
+
+7. Rebuild the database with the seed being in development:
 
 ```
 http://localhost:3000/api/v2/seed
