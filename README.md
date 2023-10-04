@@ -5,9 +5,30 @@
 # Run in development
 
 1. Clone the repository
-2. Run `npm install` inside the project folder
-3. Have Nest CLI installed `npm i -g @nestjs/cli`
-4. Run the Database `docker-compose up -d`
+
+2. Run inside the project folder:
+
+```
+npm install
+```
+
+3. Have Nest CLI installed:
+
+```
+npm i -g @nestjs/cli
+```
+
+4. Run the Database:
+
+```
+docker-compose up -d
+```
+
+5. Rebuild the database with the seed being in development:
+
+```
+http://localhost:3000/api/v2/seed
+```
 
 ## Used Stack
 
