@@ -1,0 +1,10 @@
+htmlo,
+body {
+  padding: 20px;
+  background-color: #262525;
+}
+
+h1 {
+  font-size: 20px;
+  color: aliceblue;
+}
